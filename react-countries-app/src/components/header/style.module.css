@@ -1,0 +1,49 @@
+.header {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 48px;
+    background-color: hsl(0, 0%, 100%);
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.123);
+}
+
+.headerLogo {
+    font-weight: 800;
+    font-size: 24px;
+    color: black;
+}
+
+.themeModeButton {
+    background: none;
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+}
+
+.themeModeButton>:nth-child(1) {
+    margin-right: 8px;
+}
+
+.header.darkTheme {
+    background-color: hsl(209, 23%, 22%);
+}
+
+.header.darkTheme .headerLogo,
+.header.darkTheme .themeModeButton {
+    color: white;
+}
+
+@media screen and (max-width: 768px) {
+    .header {
+        margin-bottom: 24px;
+    }
+
+    .headerLogo {
+        font-size: 16px;
+    }
+
+    .themeModeButton {
+        font-size: 12px;
+    }
+}

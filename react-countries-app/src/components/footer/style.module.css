@@ -1,0 +1,25 @@
+.attribution {
+    width: 100%;
+    margin: 180px 0 24px 0;
+    font-size: 11px;
+    text-align: center;
+    color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+.attribution.darkTheme {
+    color: #b8b8b8;
+}
+
+@media screen and (max-width: 768px) {
+    .attribution {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+}

@@ -1,0 +1,401 @@
+colors {
+    color: hsl(39, 89%, 49%) to hsl(40, 84%, 53%);
+    color: hsl(230, 89%, 62%) to hsl(230, 89%, 65%);
+    color: hsl(349, 71%, 52%) to hsl(349, 70%, 56%);
+    color: hsl(261, 73%, 60%) to hsl(261, 72%, 63%);
+    color: hsl(189, 59%, 53%) to hsl(189, 58%, 57%);
+    color: hsl(229, 25%, 31%);
+    color: hsl(229, 64%, 46%);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+}
+
+button {
+    background: none;
+    cursor: pointer;
+}
+
+body {
+    background: radial-gradient(circle at top, hsl(214, 47%, 23%) 0%, hsl(237, 49%, 15%) 100%) no-repeat fixed;
+    font-family: "Barlow Semi Condensed", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 16px;
+    color: #fafafa;
+}
+
+body .container {
+    width: calc(1366px - 660px);
+    margin: 48px auto;
+}
+
+header {
+    width: 100%;
+    height: 154px;
+    border: 3px solid hsl(218deg 20% 60% / 40%);
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 48px;
+    padding: 0 24px;
+}
+
+header .logo img {
+    display: block;
+}
+
+header .score {
+    width: 150px;
+    height: 115px;
+    background-color: #fafafa;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+header .score :nth-child(1) {
+    color: hsl(229, 64%, 46%);
+    letter-spacing: 2px;
+    margin-bottom: -5px;
+}
+
+header .score :nth-child(2) {
+    color: #545454;
+    font-size: 64px;
+    font-weight: 800;
+}
+
+
+
+
+
+
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+main button {
+    width: 180px;
+    height: 180px;
+    padding: 24px;
+    border-radius: 100%;
+    padding-bottom: 16px;
+    margin: 20px 36px;
+    position: relative;
+    cursor: pointer;
+    border-bottom: 8px solid
+}
+
+
+
+main .paper {
+    background-image: linear-gradient(to bottom, hsl(230, 89%, 62%) 0%, hsl(230, 89%, 65%) 100%);
+    border-color: #3e51c9;
+}
+
+main .scissors {
+    background-image: linear-gradient(to bottom, hsl(39, 89%, 49%) 0%, hsl(40, 84%, 53%) 100%);
+    border-color: hsl(39, 86%, 41%);
+}
+
+main .rock {
+    background-image: linear-gradient(to bottom, hsl(349, 71%, 52%) 0%, hsl(349, 70%, 56%) 100%);
+    border-color: hsl(349, 68%, 36%);
+}
+
+main button div {
+    position: relative;
+    border-radius: 100%;
+    width: 100%;
+    height: 100%;
+    box-shadow: inset 0 8px 0 0 #cecece;
+}
+
+main .paper div {
+    background: url('./images/icon-paper.svg') #fafafa center no-repeat;
+}
+
+main .scissors div {
+    background: url('./images/icon-scissors.svg') #fafafa center no-repeat;
+
+}
+
+main .rock div {
+    background: url('./images/icon-rock.svg') #fafafa center no-repeat;
+}
+
+main .triangle-bg {
+    background: url(./images/bg-triangle.svg) center no-repeat;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    z-index: -1;
+    width: 100%;
+}
+
+main.next-step {
+    justify-content: space-between;
+    background: none;
+}
+
+/* Main StepTwo-Three Start */
+main.next-step button {
+    zoom: 1.6;
+    margin: 40px 0
+}
+
+main.next-step h2 {
+    text-align: center;
+    letter-spacing: 2px;
+    padding: 16px 0;
+}
+
+main button.shadow {
+    border: 0;
+}
+
+main button.shadow div {
+    background: #0000002b;
+    box-shadow: none;
+    width: 140px;
+    height: 140px;
+    -webkit-animation: switchOff 750ms linear infinite alternate;
+    animation: switchOff 750ms linear infinite alternate;
+}
+
+@keyframes switchOff {
+    from {
+        box-shadow: inset 0 0 0 0 #0000002b;
+        opacity: 0;
+    }
+
+    to {
+        box-shadow: inset 0 0 100px 0 #00000046;
+        opacity: 1;
+    }
+}
+
+/* Main StepTwo-Three End */
+
+/* Main Step Four Start */
+main.game-result {
+    margin: 0 -100px;
+}
+
+main.next-step> :nth-child(2) {
+    width: 220px;
+}
+
+main.next-step> :nth-child(2) button {
+    width: 100%;
+    height: 48px;
+    border-radius: 8px;
+    background-color: #fafafa;
+    border: 0;
+    padding: 0;
+    zoom: unset;
+    font-weight: 700;
+    letter-spacing: 2px;
+    margin: 0;
+}
+
+main.next-step> :nth-child(2) h2 {
+    font-size: 48px;
+    margin: 0;
+}
+
+/* Main Step Four End */
+
+
+footer {
+    width: 100%;
+    margin: 0 auto 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 36px;
+    font-size: 12px;
+    color: #7e7d7d;
+}
+
+footer .attribution a {
+    color: #fff;
+}
+
+footer .rules {
+    width: 130px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #ddd;
+    color: #fafafa;
+    letter-spacing: 2px;
+    background-color: transparent;
+    border-radius: 8px;
+}
+
+.rules-modal {
+    background-color: hsl(0deg 0% 0% / 64%);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+}
+
+.rules-modal>div:nth-child(1) {
+    width: 400px;
+    height: 415px;
+    background-color: #fafafa;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    z-index: 100;
+    padding: 30px;
+    color: hsl(229, 25%, 31%);
+    text-align: center;
+    border-radius: 8px;
+}
+
+.modal-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 48px;
+    width: 100%;
+}
+
+.image-rules {
+    width: 300px;
+    height: auto;
+}
+
+
+@media only screen and (max-width: 1023px) {
+    body .container {
+        width: calc(100% - 60px);
+        margin: 30px auto;
+    }
+
+    header {
+        height: 100px;
+        border-radius: 8px;
+        padding: 0 12px;
+    }
+
+    header .logo img {
+        width: 80px;
+        margin-left: 10px;
+    }
+
+    header .score {
+        width: 80px;
+        height: 70px;
+    }
+
+    header .score :nth-child(1) {
+        font-size: 8px;
+    }
+
+    header .score :nth-child(2) {
+        font-size: 40px;
+    }
+
+
+
+    main .triangle-bg {
+        width: 50%;
+        background-size: contain;
+    }
+
+    main.next-step button {
+        zoom: 1;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    main.next-step h2 {
+        font-size: 14px;
+    }
+
+    main.game-result {
+        margin: 0 0 218px 0;
+    }
+
+    main.next-step> :nth-child(2) {
+        display: block;
+        position: absolute;
+        bottom: -158px;
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+
+    main button.shadow div {
+        width: 100%;
+        height: 100%;
+    }
+
+    .rules-modal>div:nth-child(1) {
+        width: calc(100% - 40px);
+    }
+
+    .image-rules {
+        width: 100%;
+    }
+
+}
+
+@media only screen and (max-width: 425px) {
+
+    header {
+        margin-bottom: 80px;
+    }
+
+    main.next-step button {
+        margin-top: 20px;
+    }
+
+    main button {
+        width: 130px;
+        height: 130px;
+        border-bottom-width: 4px;
+        padding: 16px;
+        margin: 12px
+    }
+
+    footer {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    footer .attribution {
+        margin-bottom: 48px;
+    }
+}

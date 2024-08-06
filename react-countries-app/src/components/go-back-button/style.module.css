@@ -1,0 +1,33 @@
+.goBackButtonWrapper {
+    width: 100%;
+    margin: 32px 0 80px 0;
+}
+
+.goBackButton {
+    width: 140px;
+    height: 40px;
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 0 6px -1px rgba(0, 0, 0, 0.349);
+    font-weight: 400;
+    font-size: 16px;
+    border-radius: 8px;
+}
+
+.goBackButton>:nth-child(1) {
+    margin-right: 12px;
+}
+
+.goBackButtonWrapper.darkTheme .goBackButton {
+    background-color: hsl(209, 23%, 22%);
+    color: #cecece;
+}
+
+
+@media screen and (max-width: 768px) {
+    .goBackButtonWrapper {
+        margin: 12px 0 48px 0;
+    }
+}

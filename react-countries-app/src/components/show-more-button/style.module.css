@@ -1,0 +1,17 @@
+.showMoreButton {
+    margin: auto;
+    padding: 12px 20px;
+    display: flex;
+    border-radius: 8px;
+    background: white;
+    box-shadow: 0 0 3px -1px #0000006b;
+}
+
+.showMoreButton:hover {
+    text-decoration: underline;
+}
+
+.showMoreButton.darkTheme {
+    background: #2d3946;
+    color: #dedede;
+}

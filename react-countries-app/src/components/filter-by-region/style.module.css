@@ -1,0 +1,21 @@
+.filterByRegion {
+    width: 200px;
+    height: 56px;
+    position: relative;
+    box-shadow: 0 0 3px -1px rgb(0 0 0 / 52%);
+    border-radius: 4px;
+    margin-bottom: 48px;
+}
+
+.filterByRegion>:nth-child(1) {
+    width: 100%;
+    height: 100%;
+    padding: 0 12px;
+    border-radius: 4px;
+}
+
+
+.filterByRegion.darkTheme>:nth-child(1) {
+    background-color: hsl(209, 23%, 22%);
+    color: #cfcfcf;
+}
