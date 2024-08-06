@@ -1,15 +1,27 @@
+## JavaScript ile Hazırlanan "Rock Paper Scissors" Oyunu
+
 ![Rock Paper Scissors](./rock-paper-scissors.gif)
 
-## Rock Paper Scissors Game
+Bu proje, klasik ve eğlenceli bir oyun olan Taş Kağıt Makas'ı bilgisayara karşı oynamanıza olanak tanır. Oyun, kullanıcıya karşı bilgisayarın rastgele seçtiği bir hamle ile oynanır.
 
-Selamlar, frontendmentor.io sitesinde yer alan [_"Rock Paper Scissors Game"_](https://www.frontendmentor.io/challenges/rock-paper-scissors-game-pTgwgvgH) projesini tamamladım. Projede kullandığım diller: HTML, CSS, JavaScript.
+Uygulama Sayfası: https://www.frontendmentor.io/challenges/rock-paper-scissors-game-pTgwgvgH
 
 Demo: https://frontend-mentor-advanced-challenges-rock-paper-scissors.vercel.app/
 
 ---
 
-### Bu Projede Yaptıklarım:
+### Özellikler
+* **Kazanma, Kaybetme ve Beraberlik Durumları:** Oyunun sonucunu ekranda gösterir ve score bilgisini kaydeder.
+* **Responsive Design:** Farklı ekran boyutlarında sorunsuz çalışır.
 
+---
+
+### Kullandığım Teknolojiler:
+- JavaScript, HTML ve CSS.
+
+---
+
+### Bu Projede Yaptıklarım:
 - İstenilen tasarımı bilgisayar, telefon ve tablet gibi tüm cihazlarda kullanıma uygun olacak şekilde yerine getirdim.
 - Seçilen nesneye göre galibiyet-yenilgi-beraberlik durumlarını veren oyun kurallarını JavaScript tarafında yazdım.
 - Galibiyet, beraberlik veya yenilgi durumlarını "score" alanına puan olarak yansıttım ve bunu istemcinin localStorage bölümüne ekledim.
@@ -17,6 +29,12 @@ Demo: https://frontend-mentor-advanced-challenges-rock-paper-scissors.vercel.app
 
 ---
 
-### İletişim
+### Kurulum ve Kullanım:
+- **Adım 1: Klonlama:** `git clone https://github.com/gokhandemr/frontend-mentor-advanced-challenges.git`
+- **Adım 2: Proje Klasörünü Açma:** `cd frontend-mentor-advanced-challenges/rock-paper-scissors/`
+- **Çalıştırma:** `Oyunu "live-server" gibi herhangi bir yerel sunucu eklentisini yardımıyla açabilirsiniz.`
 
+---
+
+### İletişim
 _gkhandemir96@gmail.com_
