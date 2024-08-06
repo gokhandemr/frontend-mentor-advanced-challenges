@@ -4,7 +4,7 @@
 
 Selamlar, frontendmentor.io sitesinde yer alan [_"Rock Paper Scissors Game"_](https://www.frontendmentor.io/challenges/rock-paper-scissors-game-pTgwgvgH) projesini tamamladım. Projede kullandığım diller: HTML, CSS, JavaScript.
 
-Demo: https://frontendmentor-challenge-rock-paper-scissors.vercel.app/
+Demo: https://frontend-mentor-advanced-challenges-rock-paper-scissors.vercel.app/
 
 ---
 
