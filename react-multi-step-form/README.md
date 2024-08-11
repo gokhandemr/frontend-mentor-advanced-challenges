@@ -2,7 +2,7 @@
 
 ![Multi-Step Form](./images.gif)
 
-Bu proje, ["Frontend Mentor"](https://www.frontendmentor.io/challenges?difficulty=4) sitesine ait olan çok adımlı bir form oluşturma ve tasarımı olabildiğince yakın hale getirme imkanı sunan bir kodlama alıştırmasıdır.
+Bu proje, ["Frontend Mentor"](https://www.frontendmentor.io/challenges?difficulty=4) sitesine ait 4 adımdan oluşan ve her bir adımında farklı form yapılarını kullanmayı sağlayan, tasarımı olabildiğince istenilene yakın hale getirme imkanı sunan bir kodlama alıştırmasıdır.
 
 Uygulama Sayfası: https://www.frontendmentor.io/challenges/multistep-form-YVAnSdqQBJ
 
