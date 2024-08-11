@@ -1,0 +1,75 @@
+.formWrapper {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.formWrapper label {
+    margin-bottom: 8px;
+    font-size: 14px;
+}
+
+.formWrapper input {
+    width: 100%;
+    height: 48px;
+    box-shadow: inset 0 0 0 1px #ddd;
+    border: 0;
+    border-radius: 8px;
+    padding: 12px;
+    margin-bottom: 16px;
+    font-weight: 700;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.formWrapper input::placeholder {
+    opacity: .5;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.buttonWrapper {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-top: 67px;
+}
+
+.buttonWrapper button {
+    width: 120px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(213, 96%, 18%);
+    color: #fff;
+    font-weight: 700;
+    border: 0;
+    border-radius: 8px;
+}
+
+@media screen and (max-width: 768px) {
+    .formWrapper {
+        position: unset;
+    }
+
+    .formWrapper input {
+        height: 36px;
+        border-radius: 4px;
+    }
+
+    .buttonWrapper {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        padding: 18px 12px;
+        background-color: #fff;
+    }
+
+    .buttonWrapper button {
+        width: 96px;
+        height: 36px;
+        border-radius: 4px;
+    }
+}

@@ -1,0 +1,48 @@
+.buttonWrapper {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 72px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.buttonWrapper button {
+    width: 120px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(213, 96%, 18%);
+    color: #fff;
+    font-weight: 700;
+    border: 0;
+    border-radius: 8px;
+}
+
+.buttonWrapper .goBackButton {
+    background: none;
+    border: none;
+    color: hsl(0, 0%, 66%);
+    justify-content: flex-start;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+@media screen and (max-width: 768px) {
+    .buttonWrapper {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        padding: 18px 12px;
+        background-color: #fff;
+    }
+
+    .buttonWrapper button {
+        width: 96px;
+        height: 36px;
+        border-radius: 4px;
+    }
+}

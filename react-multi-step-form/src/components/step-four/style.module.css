@@ -1,0 +1,79 @@
+.checkListWrapper {
+    width: 100%;
+    padding: 12px 24px;
+    border-radius: 8px;
+    background-color: hsl(231, 100%, 99%);
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    color: hsl(213, 96%, 18%);
+}
+
+.planList {
+    width: 100%;
+    border-bottom: 1px solid rgb(216, 216, 216);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px 0;
+    padding-bottom: 24px;
+    margin-bottom: 24px;
+
+}
+
+.planList a {
+    font-size: 14px;
+    color: #aeaeae;
+}
+
+.pickAddOnsList {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    color: #aeaeae;
+}
+
+.pickAddOnsList li {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: 400;
+    font-size: 14px;
+    margin-bottom: 24px;
+}
+
+.pickAddOnsList li>:nth-child(2) {
+    color: hsl(213, 96%, 18%);
+
+}
+
+.pickAddOnsList>:last-child {
+    margin-bottom: 12px;
+}
+
+.totalPrice {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px 24px;
+    font-weight: 400;
+    font-size: 14px;
+    color: #aeaeae;
+}
+
+.totalPrice>:nth-child(2) {
+    font-size: 18px;
+    color: hsl(243, 100%, 62%);
+    font-weight: 700;
+}
+
+
+@media screen and (max-width: 768px) {
+    .checkListWrapper {
+        padding: 12px;
+    }
+}

@@ -1,0 +1,155 @@
+.selectWrapper {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 36px;
+}
+
+.plan {
+    width: 134px;
+    height: 170px;
+    border: 1px solid #cfcfcf;
+    border-radius: 8px;
+    padding: 16px 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.selectWrapper img {
+    width: 40px;
+    height: 40px;
+}
+
+.active {
+    border-color: hsl(213, 96%, 18%);
+    background-color: hsl(231, 100%, 99%);
+}
+
+.planDetails h4 {
+    margin-bottom: 4px;
+}
+
+.planDetails p {
+    opacity: .5;
+    font-weight: 400;
+    font-size: 14px;
+    margin-bottom: 4px;
+}
+
+.planDetails .freeText {
+    color: hsl(213, 96%, 18%);
+    opacity: 1;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+/* Switch */
+.switchWrapper {
+    width: 100%;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(231, 100%, 99%);
+    border-radius: 8px;
+}
+
+.switchWrapper p {
+    opacity: .5;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.switchWrapper>:nth-child(1) {
+    margin-right: 24px;
+}
+
+.switchWrapper>:nth-child(3) {
+    margin-left: 24px;
+}
+
+.switchWrapper .active {
+    opacity: 1;
+}
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 48px;
+    height: 24px;
+}
+
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: hsl(213, 96%, 18%);
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 16px;
+    width: 16px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+.slider.yearly::before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+}
+
+.slider.monthly::before {
+    -webkit-transform: translateX(0px);
+    -ms-transform: translateX(0px);
+    transform: translateX(0px);
+}
+
+.slider.round {
+    border-radius: 34px;
+}
+
+.slider.round:before {
+    border-radius: 50%;
+}
+
+
+@media screen and (max-width: 768px) {
+    .selectWrapper {
+        flex-wrap: wrap;
+        justify-content: center;
+        align-content: center;
+    }
+
+    .plan {
+        width: 100%;
+        height: auto;
+        margin: 0 0 8px 0;
+        align-items: center;
+        flex-direction: row;
+        justify-content: flex-start;
+    }
+
+    .plan img {
+        margin-right: 12px;
+    }
+}

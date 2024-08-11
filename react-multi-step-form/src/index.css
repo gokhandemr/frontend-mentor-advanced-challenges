@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  outline: none;
+  list-style: none;
+  color: inherit;
+}
+
+button {
+  cursor: pointer;
+}
+
+img {
+  display: block;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  font-style: normal;
+  background-color: hsl(217, 100%, 97%);
+  color: hsl(213, 96%, 18%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#root {
+  width: 100%;
+  max-width: 940px;
+  height: 600px;
+  border-radius: 16px;
+  background-color: #fff;
+  padding: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+.active>:first-child {
+  background-color: hsl(206, 94%, 87%);
+  color: black;
+  border: 0;
+}
+
+main {
+  width: 450px;
+  height: calc(100% - 64px);
+  position: relative;
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    background-color: hsl(217, 100%, 97%);
+  }
+
+  #root {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    background: none;
+    align-items: flex-start;
+    align-content: flex-start;
+  }
+
+  main {
+    width: 90%;
+    height: auto;
+    background: #fff;
+    margin: -72px auto 0;
+    border-radius: 8px;
+    padding: 24px;
+    position: unset;
+  }
+}
