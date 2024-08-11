@@ -7,6 +7,10 @@ import Pagination from "../pagination";
 import {useDataStore} from "../../zustand/store";
 // Router DOM
 import {useNavigate} from "react-router-dom";
+// Icons
+import arcadeIcon from "../../../assets/images/icon-arcade.svg";
+import advancedIcon from "../../../assets/images/icon-advanced.svg";
+import proIcon from "../../../assets/images/icon-pro.svg";
 
 export default function StepTwo() {
   // Zustand Store
@@ -22,19 +26,19 @@ export default function StepTwo() {
       planName: "Arcade",
       monthlyPrice: 9,
       yearlyPrice: 90,
-      img: "./../../../assets/images/icon-arcade.svg",
+      img: arcadeIcon,
     },
     {
       planName: "Advanced",
       monthlyPrice: 12,
       yearlyPrice: 120,
-      img: "../../../assets/images/icon-advanced.svg",
+      img: advancedIcon,
     },
     {
       planName: "Pro",
       monthlyPrice: 15,
       yearlyPrice: 150,
-      img: "../../../assets/images/icon-pro.svg",
+      img: proIcon,
     },
   ];
 
