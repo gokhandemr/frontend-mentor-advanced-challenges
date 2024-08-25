@@ -4,7 +4,7 @@
 
 Bu proje, ["Frontend Mentor"](https://www.frontendmentor.io/challenges?difficulty=4) sitesine ait 4 adımdan oluşan ve her bir adımında farklı form yapılarını kullanmayı sağlayan, tasarımı olabildiğince istenilene yakın hale getirme imkanı sunan bir kodlama alıştırmasıdır.
 
-Uygulama Sayfası: https://www.frontendmentor.io/challenges/multistep-form-YVAnSdqQBJ
+Uygulama Sayfası: https://www.frontendmentor.io/solutions/multi-step-form-react-vite-HQln62G1yr
 
 Demo: https://frontend-mentor-advanced-challenges-multi-step-form.vercel.app/
 
