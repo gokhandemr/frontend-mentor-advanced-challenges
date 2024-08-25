@@ -4,7 +4,7 @@
 
 Bu uygulama, dünya ülkeleri hakkında bilgi sunmayı amaçlayan bir web uygulamasıdır. Ülke adına göre arama yapabilir, koyu veya açık tema arasında geçiş yapabilir, kıtalara göre ülkeleri listeleyebilir ve seçilen bir ülkenin komşu ülkelerini görebilirsiniz.
 
-Uygulama Sayfası: https://www.frontendmentor.io/challenges/rest-countries-api-with-color-theme-switcher-5cacc469fec04111f7b848ca
+Uygulama Sayfası: https://www.frontendmentor.io/solutions/rest-countries-api-with-color-theme-switcher-react-vite-5nJ_NtNT7U
 
 Demo: https://frontend-mentor-advanced-challenges-react-countries-app.vercel.app/
 
