@@ -8,7 +8,7 @@ Merhabalar, bu repoda ["Frontend Mentor"](https://www.frontendmentor.io/challeng
 
 Bu uygulama, dünya ülkeleri hakkında bilgi sunmayı amaçlayan bir web uygulamasıdır. Ülke adına göre arama yapabilir, koyu veya açık tema arasında geçiş yapabilir, kıtalara göre ülkeleri listeleyebilir ve seçilen bir ülkenin komşu ülkelerini görebilirsiniz.
 
-Uygulama Sayfası: https://www.frontendmentor.io/challenges/rest-countries-api-with-color-theme-switcher-5cacc469fec04111f7b848ca
+Uygulama Sayfası: https://www.frontendmentor.io/solutions/rest-countries-api-with-color-theme-switcher-react-vite-5nJ_NtNT7U
 
 Demo: https://frontend-mentor-advanced-challenges-react-countries-app.vercel.app/
 
@@ -18,17 +18,17 @@ Demo: https://frontend-mentor-advanced-challenges-react-countries-app.vercel.app
 
 Bu proje, dört adımdan oluşan ve her bir adımda farklı form yapılarının kullanılmasını sağlayan, tasarımı olabildiğince istenilene yakın hale getirme imkanı sunan bir kodlama alıştırmasıdır.
 
-Uygulama Sayfası: https://www.frontendmentor.io/challenges/multistep-form-YVAnSdqQBJ
+Uygulama Sayfası: https://www.frontendmentor.io/solutions/multi-step-form-react-vite-HQln62G1yr
 
 Demo: https://frontend-mentor-advanced-challenges-multi-step-form.vercel.app/
 
 ---
 
-## Uygulama 3: JavaScript ile Hazırlanan Rock Paper Scissors Oyunu
+## Uygulama 3: JavaScript ile Hazırlanan Taş Kağıt Makas Oyunu
 
 Bu proje, klasik ve eğlenceli bir oyun olan Taş Kağıt Makas'ı bilgisayara karşı oynamanıza olanak tanır. Oyun, kullanıcıya karşı bilgisayarın rastgele seçtiği bir hamle ile oynanır.
 
-Uygulama Sayfası: https://www.frontendmentor.io/challenges/rock-paper-scissors-game-pTgwgvgH
+Uygulama Sayfası: https://www.frontendmentor.io/solutions/rock-paper-scissors-game-html-css-javascript-jYkqxW79wK
 
 Demo: https://frontend-mentor-advanced-challenges-rock-paper-scissors.vercel.app/
 
@@ -36,4 +36,4 @@ Demo: https://frontend-mentor-advanced-challenges-rock-paper-scissors.vercel.app
 
 ## İletişim
 
-Soru, görüş ve önerileriniz için _gkhandemir96@gmail.com_ mail adresine mail atabilirsiniz.
+İletişime geçmek için _gkhandemir96@gmail.com_ mail adresini kullanabilirsiniz.
