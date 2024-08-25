@@ -4,7 +4,7 @@
 
 Bu proje, klasik ve eğlenceli bir oyun olan Taş Kağıt Makas'ı bilgisayara karşı oynamanıza olanak tanır. Oyun, kullanıcıya karşı bilgisayarın rastgele seçtiği bir hamle ile oynanır.
 
-Uygulama Sayfası: https://www.frontendmentor.io/challenges/rock-paper-scissors-game-pTgwgvgH
+Uygulama Sayfası: https://www.frontendmentor.io/solutions/rock-paper-scissors-game-html-css-javascript-jYkqxW79wK
 
 Demo: https://frontend-mentor-advanced-challenges-rock-paper-scissors.vercel.app/
 
